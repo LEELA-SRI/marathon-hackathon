@@ -31,17 +31,17 @@ body{
     line-height:1.5
 }
 .medtext{
-    font-size:40px;
-    font-weight: 700;
+    font-size:2rem;
+    font-weight: bold;
     margin-top: 0;
     margin-bottom: 0.5rem;
     line-height:1.2
 }
-#banner .btn{
+#banner .btn,#contact .submit{
     border-radius: 0;
     font-weight:bold;
 }
-.buy{
+.buy,.submit{
     background:#2DFEC6;
     color:black;
     
@@ -55,7 +55,7 @@ body{
     width:-webkit-fill-available;
 } 
 .about-img{
-    width:inherit
+    width:-webkit-fill-available;
 }
 .icons{
     width:50px;
@@ -172,9 +172,9 @@ body{
   }
   
 
-#news-slider {
-    margin-top: 80px;
-}
+/* #news-slider {
+    margin-top: 20px;
+} */
 
 .post-slide {
     background: #fff;
@@ -331,6 +331,13 @@ body{
 
 @media only screen and (max-width:1280px) {
     .post-slide .post-content {
-        padding: 0px 15px 25px 15px;
+        padding: 15px 15px 25px 15px;
+    }
+}
+@media (max-width:768px) {
+    .icon-container{
+        width:max-content;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
