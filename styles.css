@@ -24,6 +24,7 @@ body{
  background: none;
 }
 .bigtext{
+    font-family: 'Montserrat', sans-serif;
     font-size:3rem;
     font-weight: 700;
     margin-top: 0;
@@ -31,6 +32,7 @@ body{
     line-height:1.5
 }
 .medtext{
+    font-family: 'Montserrat', sans-serif;
     font-size:2rem;
     font-weight: bold;
     margin-top: 0;
@@ -173,6 +175,7 @@ body{
   
 
 .post-slide {
+    font-family: 'Open Sans', sans-serif;
     background: #fff;
     margin: 20px 15px 20px;
     border-radius: 15px;
@@ -245,6 +248,7 @@ body{
     line-height: 24px;
     color: #808080;
     margin-bottom: 25px;
+    font-family: 'Noto Serif Display', serif;
 }
 
 .post-slide .post-date {
