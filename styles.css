@@ -68,7 +68,7 @@ body{
 	        animation: bounce-in-top 3s ease-in-out alternate both;
 }
 .description{
-	font-family: 'Noto Serif Display', serif;
+	font-family: 'Montagu Slab', serif;
 }
 
  @-webkit-keyframes bounce-in-top {
